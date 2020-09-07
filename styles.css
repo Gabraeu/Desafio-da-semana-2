@@ -1,0 +1,116 @@
+html, body{
+    margin:0;
+}
+header{
+    background-color: royalblue;
+    color:white;
+    height: 60px;
+    width: 100%;
+    Position: fixed;
+    z-index: 10;
+}
+#logo{
+    width: 58px;
+    position: absolute;
+    margin-left: 5%;
+}
+#menu{
+    float: right;
+    margin-right: 5%;
+    margin-top:0px;
+    list-style: none;
+}
+li{
+    float:left;
+    color: white;
+    padding:20px 10px 20px 10px;
+}
+li:hover{
+    background-color:white;
+    color: black;
+}
+.cormenu{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+#imagemfundo{
+    background:url("/Imagens/international-space-station-1176518_1920.jpg");
+    padding: 100px;
+    text-align: center;
+    background-size:cover;
+   
+}
+#título{
+    color: white;
+    font-size: 70px;
+    padding-top: 8px;
+
+}
+#subtítulo{
+    color: rgb(0, 0, 0);
+    font-size:40px;
+    padding-left: 20%;
+    padding-right: 20%;
+   
+}
+#acao{
+    color:white;
+    border:2px white solid;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    }
+#acao:hover{
+    color:blue;
+    background-color:white;
+}
+
+.icones{
+    width:51px;
+    
+}
+
+.colunadois{
+    float:left;
+    padding:0 5%;
+    position: relative;
+    width:40%;
+
+}
+.coluna3{
+    float:left;
+    padding:0 5%;
+    position: relative;
+    width:23%;
+}
+
+.centralizado{
+    text-align: center;
+}
+.justificado{
+    text-align:justify;
+}
+
+section{
+    padding:20px;
+    float: left;
+}
+.destaque{
+    background-color: rgb(113, 137, 207);
+}
+.ilustração{
+    width: 100%;
+    height: 300px;
+}
+.colunasobre{
+    float:left;
+    padding: 0 5%;
+    position: relative;
+    width:40%;
+}
+
+footer{
+    background-color: rgb(113, 137, 207);
+    float:left;
+    padding:30px;
+    font-size: 15px;
+}
